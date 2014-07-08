@@ -1,6 +1,6 @@
 #!/bin/sh
 
-version=005
+version=006
 
 md5sum --check --status checksums-$version
 if [ $? -eq 0 ]; then
